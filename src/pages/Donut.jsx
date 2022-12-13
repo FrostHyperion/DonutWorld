@@ -33,6 +33,9 @@ const Donut = () => {
         <div className="right">
           <div className="inner-left">
             <p>{donut?.name}</p>
+            <div className="desc">
+              <p>{donut?.description}</p>
+            </div>
             <p>$ {donut?.price}</p>
           </div>
           <div className="inner-right">
