@@ -1,0 +1,16 @@
+{
+  "resourceName": "DonutImages",
+  "policyUUID": "c2e8cde3",
+  "bucketName": "donutworld7ed8ab1cf4c54b3eb5f3c7f577512658",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
