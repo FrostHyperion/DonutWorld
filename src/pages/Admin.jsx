@@ -17,16 +17,18 @@ const Admin = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-      if (
-        !user?.signInUserSession.accessToken.payload.hasOwnProperty("cognito:groups")
-      ) {
-        window.alert("Only Admins are allowed");
-        navigate("/");
-      }
+    if (
+      !user?.signInUserSession.accessToken.payload.hasOwnProperty(
+        "cognito:groups"
+      )
+    ) {
+      window.alert("Only Admins are allowed");
+      navigate("/");
+    }
 
-      if(!user) {
-        window.alert("You need to signin in order to access this page.");
-        navigate("/");
+    if (!user) {
+      window.alert("You need to signin in order to access this page.");
+      navigate("/");
     }
   }, [navigate, user]);
 
@@ -36,6 +38,7 @@ const Admin = () => {
     description: "",
     image: "",
     price: "",
+    stripe_price_id: "",
   });
 
   const handleSubmit = async (e) => {
@@ -48,8 +51,9 @@ const Admin = () => {
         description: "",
         image: "",
         price: "",
+        stripe_price_id: "",
       });
-      navigate("/donuts")
+      navigate("/donuts");
     } catch (err) {
       console.log(err);
       window.alert(err.message);
@@ -131,6 +135,24 @@ const Admin = () => {
                     setDonutDetails({
                       ...donutDetails,
                       price: parseFloat(e.target.value),
+                    })
+                  }
+                  required
+                />
+              </p>
+            </div>
+            <div className="price-form">
+              <p>
+                <label htmlFor="stripe_price_id">Stripe price key</label>
+                <input
+                  name="stripe_price_id"
+                  type="text"
+                  placeholder="Stripe price key"
+                  value={donutDetails.stripe_price_id}
+                  onChange={(e) =>
+                    setDonutDetails({
+                      ...donutDetails,
+                      stripe_price_id: e.target.value,
                     })
                   }
                   required

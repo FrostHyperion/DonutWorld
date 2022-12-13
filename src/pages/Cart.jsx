@@ -12,8 +12,9 @@ const Cart = () => {
     <div className="cart">
       <div>
         <h5>Check out :</h5>
-        <a href="/checkout"><button className="button-87">Checkout {cart.length} Items</button></a>
-
+        <a href="/checkout">
+          <button className="button-87">Checkout {cart.length} Items</button>
+        </a>
       </div>
       <div className="cartDonuts">
         {cart?.map((product) => {
