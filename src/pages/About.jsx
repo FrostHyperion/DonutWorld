@@ -1,7 +1,5 @@
 import React from "react";
 import "./About.css";
-import main from "../components/Images/AboutImage.jpg";
-import SecondMain from "../components/Images/About2Image.jpg";
 
 const About = () => {
   return (
@@ -21,10 +19,8 @@ const About = () => {
               ligula.
             </p>
           </div>
-          <img src={main} alt="" />
         </div>
         <div className="right">
-          <img src={SecondMain} alt="" />
           <div className="content">
             <h5>WHERE WE ARE TODAY</h5>
             <p>

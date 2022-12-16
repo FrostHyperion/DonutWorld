@@ -1,7 +1,7 @@
 {
-  "resourceName": "DonutImages",
-  "policyUUID": "c2e8cde3",
-  "bucketName": "donutworld7ed8ab1cf4c54b3eb5f3c7f577512658",
+  "resourceName": "s35c2fe9f2",
+  "policyUUID": "5c2fe9f2",
+  "bucketName": "donutworldcace724881f248b5bacab82255082cd2",
   "storageAccess": "authAndGuest",
   "guestAccess": [
     "READ"

@@ -1,6 +1,6 @@
 import { Auth } from "aws-amplify";
 import React, { useEffect, useState } from "react";
-import {Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ChangePasswordForm from "../components/forms/ChangePasswordForm";
 import ChangeUserInfoForm from "../components/forms/ChangeUserInfoForm";
 
@@ -114,13 +114,11 @@ const Account = () => {
           >
             Change Password
           </button>
-          {userInfo?.signInUserSession?.accessToken?.payload?.scope?.split(".").includes("admin") &&
-            (
-              <button>
-                <Link to="/admin">Admin Page</Link>
-             </button>
-           )
-          }
+          {userInfo?.signInUserSession?.accessToken?.payload && (
+            <button>
+              <Link to="/admin">Admin Page</Link>
+            </button>
+          )}
 
           <button onClick={SignOut} className="signOut">
             Sign out

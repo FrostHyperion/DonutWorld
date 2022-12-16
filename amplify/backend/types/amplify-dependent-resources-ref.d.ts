@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
-        "donutworld243ed5d5": {
+        "donutworld3dd7b4b5": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "storage": {
-        "DonutImages": {
+        "s35c2fe9f2": {
             "BucketName": "string",
             "Region": "string"
         }

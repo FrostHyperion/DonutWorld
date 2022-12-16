@@ -5,14 +5,14 @@
     "serviceName": "AppSync",
     "defaultAuthType": {
       "mode": "AMAZON_COGNITO_USER_POOLS",
-      "cognitoUserPoolId": "authdonutworld243ed5d5"
+      "cognitoUserPoolId": "authdonutworld3dd7b4b5"
     },
     "additionalAuthTypes": [
       {
         "mode": "API_KEY",
         "expirationTime": 7,
-        "apiKeyExpirationDate": "2022-12-19T22:28:52.501Z",
-        "keyDescription": "Get donuts for unauthenticated users"
+        "apiKeyExpirationDate": "2022-12-23T04:18:38.830Z",
+        "keyDescription": "Fetch donuts for unauth users"
       }
     ]
   }

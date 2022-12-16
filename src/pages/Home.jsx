@@ -18,17 +18,19 @@ function Hero() {
   };
 
   return (
-    <HeroContainer>
-      <HeroContent>
-        <HeroItems>
-          <HeroH1>Greatest Donut Ever</HeroH1>
-          <HeroP>Ready in 99 seconds</HeroP>
-          <Link to="/donuts">
-            <HeroBtn>Place Order</HeroBtn>
-          </Link>
-        </HeroItems>
-      </HeroContent>
-    </HeroContainer>
+    <>
+      <HeroContainer>
+        <HeroContent>
+          <HeroItems>
+            <HeroH1>Greatest Donut Ever</HeroH1>
+            <HeroP>Ready in 99 seconds</HeroP>
+            <Link to="/donuts">
+              <HeroBtn>Place Order</HeroBtn>
+            </Link>
+          </HeroItems>
+        </HeroContent>
+      </HeroContainer>
+    </>
   );
 }
 

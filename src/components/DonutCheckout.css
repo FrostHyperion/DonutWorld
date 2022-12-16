@@ -2,7 +2,7 @@
   display: flex;
   border-radius: 20px;
   background-color: white;
-  height: 130px;
+  height: 100px;
   width: 100%;
   margin: 30px 0;
 }
@@ -12,7 +12,7 @@
   margin-right: 20px;
 }
 .donut-checkout .right {
-    width: 60%;
+  width: 60%;
 }
 .donut-checkout .inner-right {
   display: flex;
@@ -20,7 +20,8 @@
   align-items: center;
 }
 .donut-checkout .inner-left {
-    font-size: 13px;
+  font-size: 13px;
+  font-size: 10px;
 }
 .donut-checkout .inner-right .donut-checkout .addToCartContainer .addToCart {
   border: none;

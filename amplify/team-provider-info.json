@@ -1,22 +1,22 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-donutworld-dev-162441-authRole",
-      "UnauthRoleArn": "arn:aws:iam::989938562533:role/amplify-donutworld-dev-162441-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::989938562533:role/amplify-donutworld-dev-162441-authRole",
+      "AuthRoleName": "amplify-donutworld-dev-221413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::989938562533:role/amplify-donutworld-dev-221413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::989938562533:role/amplify-donutworld-dev-221413-authRole",
       "Region": "ca-central-1",
-      "DeploymentBucketName": "amplify-donutworld-dev-162441-deployment",
-      "UnauthRoleName": "amplify-donutworld-dev-162441-unauthRole",
-      "StackName": "amplify-donutworld-dev-162441",
-      "StackId": "arn:aws:cloudformation:ca-central-1:989938562533:stack/amplify-donutworld-dev-162441/ce07f230-7a6b-11ed-9889-0615445466b0",
-      "AmplifyAppId": "d3di92sp5rdbtb"
+      "DeploymentBucketName": "amplify-donutworld-dev-221413-deployment",
+      "UnauthRoleName": "amplify-donutworld-dev-221413-unauthRole",
+      "StackName": "amplify-donutworld-dev-221413",
+      "StackId": "arn:aws:cloudformation:ca-central-1:989938562533:stack/amplify-donutworld-dev-221413/1bc78e70-7cf8-11ed-840e-06afe06c1106",
+      "AmplifyAppId": "de6fvvzupgx0o"
     },
     "categories": {
       "auth": {
-        "donutworld243ed5d5": {}
+        "donutworld3dd7b4b5": {}
       },
       "storage": {
-        "DonutImages": {}
+        "s35c2fe9f2": {}
       },
       "api": {
         "donutworld": {}

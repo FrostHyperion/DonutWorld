@@ -10,7 +10,7 @@ const DonutCheckout = ({ donut }) => {
 
   useEffect(() => {
     const getImage = async () => {
-        setImage(await fetchImage(donut?.image));
+      setImage(await fetchImage(donut?.image));
     };
     getImage();
   }, [donut.image, fetchDonut, fetchImage]);

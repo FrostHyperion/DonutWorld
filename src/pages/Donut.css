@@ -11,6 +11,10 @@
   transform: translate(-50%, -50%);
   height: 500px;
 }
+.details .right,
+.details img {
+  width: 50%;
+}
 .details .right {
   display: flex;
   flex-direction: column;

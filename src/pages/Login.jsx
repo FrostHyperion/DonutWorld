@@ -27,7 +27,7 @@ const Login = () => {
         window.location.reload();
       })
       .catch((err) => {
-        console.log(err);
+        window.alert(err);
       });
   };
 

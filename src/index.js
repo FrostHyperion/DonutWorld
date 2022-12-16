@@ -4,16 +4,18 @@ import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import { AccountProvider } from "./context/account";
-import {Amplify, AuthModeStrategyType} from "aws-amplify";
+import { Amplify, AuthModeStrategyType } from "aws-amplify";
 import AwsExports from "./aws-exports";
 import { DonutProvider } from "./context/donuts";
 import { CartProvider } from "./context/carts";
+import { Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
 
 Amplify.configure({
   ...AwsExports,
   DataStore: {
-    authModeStrategyType: AuthModeStrategyType.MULTI_AUTH
-  }
+    authModeStrategyType: AuthModeStrategyType.MULTI_AUTH,
+  },
 });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

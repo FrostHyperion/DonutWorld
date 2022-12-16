@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "donutworld243ed5d5_identitypool_243ed5d5",
+    "identityPoolName": "donutworld3dd7b4b5_identitypool_3dd7b4b5",
     "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "donutw243ed5d5",
-    "userPoolName": "donutworld243ed5d5_userpool_243ed5d5",
+    "resourceNameTruncated": "donutw3dd7b4b5",
+    "userPoolName": "donutworld3dd7b4b5_userpool_3dd7b4b5",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -34,10 +34,10 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "donutw243ed5d5_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "donutw3dd7b4b5_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "243ed5d5",
-    "resourceName": "donutworld243ed5d5",
+    "sharedId": "3dd7b4b5",
+    "resourceName": "donutworld3dd7b4b5",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "usernameAttributes": [
